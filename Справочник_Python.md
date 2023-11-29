@@ -1,5 +1,3 @@
-# Numpy Подготовка к курсам МФТИ
-
 import numpy as np
 from pprint import pprint
 
