@@ -3,11 +3,12 @@
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0)
 
-num = input('Введите 3-х значное число: ')
+n = input('Введите 3-х значное число: ')
 res = 0
-if len(num) == 3:
-    for i in num:
+if len(n) == 3:
+    for i in n:
         res += int(i)
     print(res)
+    print(f"{n} -> {res} ({n[0]} + {n[1]} + {n[2]})")
 else:
     print('Вы ввели не 3-х значное число')
